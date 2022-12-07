@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    }
+    .logo{
+    font-size: 1.2rem;
+    color: white;
+    
+    
+    }
+    
+    #header{
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+    
+    }
+    ul{
+    display: flex;
+    float: right;
+    margin-right: 10rem;
+    
+    }
+    li{
+    
+    list-style: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+    
+    }
+    li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    justify-content: end;
+    align-items: flex-end;
+    }
+    li a:hover{
+    text-decoration: underline;
+    color: red;
+    transition: .3s ;
+    
+    }
+  .home{
+
+ background: url(/images/Credit\ card-amico.png), transparent;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: left;
+ width: 50%;
+ height: 100vh;
+
+
+
+  }
+    
+.right-content {
+display: flex;
+
+}
+.welcome{
+display: flex;
+margin-top: 8rem;
+margin-left: 140%;
+font-size: 26px;
+
+}
+.welcome span{
+color: red;
+margin-top: 4rem;
+
+
+}
+
+.shop-btn{
+
+ margin-top: 20rem;
+ margin-left: 40rem;
+ background-color: rgb(238, 14, 89);
+ cursor: pointer;
+ border: 2px solid black;
+ border-radius: 12px;
+ width: 10rem;
+  
+
+
+}
+ .shop-btn h3{
+ height: 40px;
+ text-align: center;
+ color: white;
+ padding-top: 10px;
+
+}
+
+.productContainer{
+width: 100%;
+height: 100vh;
+/* background-color: rgb(91, 43, 43); */
+display: grid;
+grid-template-columns: auto auto auto;
+border: 3px solid white;
+
+}
+.pwrap {
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid rgb(222, 7, 7);
+    background: #fbfbfb;
+    cursor: pointer;
+    text-align: center;
+  }
+  .pimg { max-width: 100px; max-height: 100px; }
+  .pname { font-weight: 700; }
+  .pprice { color: #639aff; }
+
+
+
+
+
+
+
+
+
